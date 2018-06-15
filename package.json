@@ -1,0 +1,42 @@
+{
+    "name": "theme-setim",
+    "version": "0.1.0",
+    "displayName": "Seti (improved)",
+    "description": "A (hopefully) improved port of the Seti UI and syntax Atom themes",
+    "publisher": "therobut",
+    "icon": "images/seti-squared.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/therobut/setim-vscode"
+    },
+    "galleryBanner": {
+        "color": "#193549",
+        "theme": "dark"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "VSCode",
+        "Themes"
+    ],
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "scripts": {
+        "start": "nodemon --exec vsce package"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Seti (Improved)",
+                "uiTheme": "vs-dark",
+                "path": "./theme.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "nodemon": "^1.17.5",
+        "vsce": "^1.42.0"
+    }
+}
