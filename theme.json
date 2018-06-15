@@ -660,6 +660,24 @@
 			"settings": {
 				"foreground": "#E37933"
 			}
+		},
+		{
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#C03B41"
+			}
+		},
+		{
+			"scope": "variable",
+			"settings": {
+				"foreground": "#C4AA72"
+			}
+		},
+		{
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#A074C4"
+			}
 		}
 	]
 }

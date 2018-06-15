@@ -1,6 +1,6 @@
 {
     "name": "theme-setim",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Seti (improved)",
     "description": "A (hopefully) improved port of the Seti UI and syntax Atom themes",
     "publisher": "therobut",
